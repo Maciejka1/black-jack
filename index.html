@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="flex justify-center items-center h-screen font-sans">
+    <div class="bg-green-700 text-white p-5 rounded w-min">
+        <h1 class="text-3xl font-bold">Blackjack</h1>
+        <p class="sumText"></p>
+        <ul>
+            <li class="sumEl">Sum: </li>
+            <li class="cardsEl">Cards: </li>
+            <li class="dealerEl">Dealer: </li>
+        </ul>
+        <button class="startGame bg-yellow-400 p-2 rounded-2xl mt-2" onclick="startGame()">Start game</button>
+        <button class="newCard bg-yellow-400 p-2 rounded-2xl hidden mt-2" onclick="newCard()">New card</button>
+        <button class="restartGame bg-yellow-400 p-2 rounded-2xl hidden mt-2" onclick="restartGame()">Restart game</button>
+        <button class="endGame bg-red-600 p-2 rounded-2xl mt-2 hidden" onclick="endGame()">End game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
